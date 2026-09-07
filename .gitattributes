@@ -1,0 +1,6 @@
+*.png binary
+*.webp binary
+*.gif binary
+*.zip binary
+*.soulmotion binary
+* text=auto eol=lf

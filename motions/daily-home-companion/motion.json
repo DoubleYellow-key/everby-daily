@@ -1,0 +1,367 @@
+{
+  "formatVersion": 1,
+  "packId": "daily-home-companion",
+  "version": "1.0.0",
+  "name": "Daily 居家陪伴动作",
+  "targetPetId": "daily",
+  "canvas": {
+    "width": 192,
+    "height": 208,
+    "anchorX": 96,
+    "anchorY": 208
+  },
+  "animations": [
+    {
+      "id": "daily-home-click-greet",
+      "label": "坐姿挥手",
+      "loop": false,
+      "weight": 1,
+      "intents": [
+        "greet",
+        "happy"
+      ],
+      "frames": [
+        {
+          "src": "daily-home-click-greet/000.png",
+          "durationMs": 180
+        },
+        {
+          "src": "daily-home-click-greet/001.png",
+          "durationMs": 180
+        },
+        {
+          "src": "daily-home-click-greet/002.png",
+          "durationMs": 260
+        },
+        {
+          "src": "daily-home-click-greet/003.png",
+          "durationMs": 220
+        },
+        {
+          "src": "daily-home-click-greet/004.png",
+          "durationMs": 180
+        },
+        {
+          "src": "daily-home-click-greet/005.png",
+          "durationMs": 180
+        }
+      ]
+    },
+    {
+      "id": "daily-home-drink-water",
+      "label": "坐着喝水",
+      "loop": false,
+      "weight": 1,
+      "intents": [
+        "encourage",
+        "wait"
+      ],
+      "frames": [
+        {
+          "src": "daily-home-drink-water/000.png",
+          "durationMs": 220
+        },
+        {
+          "src": "daily-home-drink-water/001.png",
+          "durationMs": 220
+        },
+        {
+          "src": "daily-home-drink-water/002.png",
+          "durationMs": 240
+        },
+        {
+          "src": "daily-home-drink-water/003.png",
+          "durationMs": 380
+        },
+        {
+          "src": "daily-home-drink-water/004.png",
+          "durationMs": 420
+        },
+        {
+          "src": "daily-home-drink-water/005.png",
+          "durationMs": 240
+        },
+        {
+          "src": "daily-home-drink-water/006.png",
+          "durationMs": 220
+        },
+        {
+          "src": "daily-home-drink-water/007.png",
+          "durationMs": 220
+        }
+      ]
+    },
+    {
+      "id": "daily-home-idle-loop",
+      "label": "抱枕待机",
+      "loop": true,
+      "weight": 1,
+      "intents": [
+        "idle",
+        "wait"
+      ],
+      "frames": [
+        {
+          "src": "daily-home-idle-loop/000.png",
+          "durationMs": 420
+        },
+        {
+          "src": "daily-home-idle-loop/001.png",
+          "durationMs": 420
+        },
+        {
+          "src": "daily-home-idle-loop/002.png",
+          "durationMs": 420
+        },
+        {
+          "src": "daily-home-idle-loop/003.png",
+          "durationMs": 180
+        },
+        {
+          "src": "daily-home-idle-loop/004.png",
+          "durationMs": 180
+        },
+        {
+          "src": "daily-home-idle-loop/005.png",
+          "durationMs": 420
+        },
+        {
+          "src": "daily-home-idle-loop/006.png",
+          "durationMs": 420
+        },
+        {
+          "src": "daily-home-idle-loop/007.png",
+          "durationMs": 420
+        }
+      ]
+    },
+    {
+      "id": "daily-home-meal-reminder",
+      "label": "坐着吃饭",
+      "loop": false,
+      "weight": 1,
+      "intents": [
+        "encourage",
+        "happy"
+      ],
+      "frames": [
+        {
+          "src": "daily-home-meal-reminder/000.png",
+          "durationMs": 260
+        },
+        {
+          "src": "daily-home-meal-reminder/001.png",
+          "durationMs": 260
+        },
+        {
+          "src": "daily-home-meal-reminder/002.png",
+          "durationMs": 260
+        },
+        {
+          "src": "daily-home-meal-reminder/003.png",
+          "durationMs": 360
+        },
+        {
+          "src": "daily-home-meal-reminder/004.png",
+          "durationMs": 420
+        },
+        {
+          "src": "daily-home-meal-reminder/005.png",
+          "durationMs": 260
+        },
+        {
+          "src": "daily-home-meal-reminder/006.png",
+          "durationMs": 240
+        },
+        {
+          "src": "daily-home-meal-reminder/007.png",
+          "durationMs": 260
+        }
+      ]
+    },
+    {
+      "id": "daily-home-rest-loop",
+      "label": "抱枕休息",
+      "loop": true,
+      "weight": 1,
+      "intents": [
+        "tired",
+        "wait"
+      ],
+      "frames": [
+        {
+          "src": "daily-home-rest-loop/000.png",
+          "durationMs": 420
+        },
+        {
+          "src": "daily-home-rest-loop/001.png",
+          "durationMs": 420
+        },
+        {
+          "src": "daily-home-rest-loop/002.png",
+          "durationMs": 420
+        },
+        {
+          "src": "daily-home-rest-loop/003.png",
+          "durationMs": 460
+        },
+        {
+          "src": "daily-home-rest-loop/004.png",
+          "durationMs": 460
+        },
+        {
+          "src": "daily-home-rest-loop/005.png",
+          "durationMs": 420
+        },
+        {
+          "src": "daily-home-rest-loop/006.png",
+          "durationMs": 420
+        },
+        {
+          "src": "daily-home-rest-loop/007.png",
+          "durationMs": 420
+        }
+      ]
+    },
+    {
+      "id": "daily-home-sleep-loop",
+      "label": "抱枕睡眠",
+      "loop": true,
+      "weight": 1,
+      "intents": [
+        "tired",
+        "idle"
+      ],
+      "frames": [
+        {
+          "src": "daily-home-sleep-loop/000.png",
+          "durationMs": 520
+        },
+        {
+          "src": "daily-home-sleep-loop/001.png",
+          "durationMs": 520
+        },
+        {
+          "src": "daily-home-sleep-loop/002.png",
+          "durationMs": 520
+        },
+        {
+          "src": "daily-home-sleep-loop/003.png",
+          "durationMs": 560
+        },
+        {
+          "src": "daily-home-sleep-loop/004.png",
+          "durationMs": 560
+        },
+        {
+          "src": "daily-home-sleep-loop/005.png",
+          "durationMs": 520
+        },
+        {
+          "src": "daily-home-sleep-loop/006.png",
+          "durationMs": 520
+        },
+        {
+          "src": "daily-home-sleep-loop/007.png",
+          "durationMs": 520
+        }
+      ]
+    },
+    {
+      "id": "daily-home-stretch",
+      "label": "工作间隙伸展",
+      "loop": false,
+      "weight": 1,
+      "intents": [
+        "tired",
+        "encourage"
+      ],
+      "frames": [
+        {
+          "src": "daily-home-stretch/000.png",
+          "durationMs": 240
+        },
+        {
+          "src": "daily-home-stretch/001.png",
+          "durationMs": 260
+        },
+        {
+          "src": "daily-home-stretch/002.png",
+          "durationMs": 260
+        },
+        {
+          "src": "daily-home-stretch/003.png",
+          "durationMs": 360
+        },
+        {
+          "src": "daily-home-stretch/004.png",
+          "durationMs": 620
+        },
+        {
+          "src": "daily-home-stretch/005.png",
+          "durationMs": 300
+        },
+        {
+          "src": "daily-home-stretch/006.png",
+          "durationMs": 260
+        },
+        {
+          "src": "daily-home-stretch/007.png",
+          "durationMs": 240
+        }
+      ]
+    },
+    {
+      "id": "daily-home-work-loop",
+      "label": "抱枕敲代码",
+      "loop": true,
+      "weight": 1,
+      "intents": [
+        "work",
+        "think"
+      ],
+      "frames": [
+        {
+          "src": "daily-home-work-loop/000.png",
+          "durationMs": 320
+        },
+        {
+          "src": "daily-home-work-loop/001.png",
+          "durationMs": 300
+        },
+        {
+          "src": "daily-home-work-loop/002.png",
+          "durationMs": 300
+        },
+        {
+          "src": "daily-home-work-loop/003.png",
+          "durationMs": 320
+        },
+        {
+          "src": "daily-home-work-loop/004.png",
+          "durationMs": 300
+        },
+        {
+          "src": "daily-home-work-loop/005.png",
+          "durationMs": 320
+        },
+        {
+          "src": "daily-home-work-loop/006.png",
+          "durationMs": 300
+        },
+        {
+          "src": "daily-home-work-loop/007.png",
+          "durationMs": 320
+        },
+        {
+          "src": "daily-home-work-loop/008.png",
+          "durationMs": 300
+        },
+        {
+          "src": "daily-home-work-loop/009.png",
+          "durationMs": 320
+        }
+      ]
+    }
+  ]
+}
