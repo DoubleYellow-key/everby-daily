@@ -1,0 +1,80 @@
+{
+  "formatVersion": 1,
+  "packId": "daily-rainy-cafe",
+  "version": "1.0.0",
+  "name": "Daily 雨天咖啡馆",
+  "targetPetId": "daily",
+  "canvas": {
+    "width": 192,
+    "height": 208,
+    "anchorX": 96,
+    "anchorY": 208
+  },
+  "animations": [
+    {
+      "id": "daily-cafe-idle-loop",
+      "label": "桌边待机",
+      "loop": true,
+      "weight": 1,
+      "intents": ["idle", "wait"],
+      "frames": [
+        { "src": "frames/idle/000.png", "durationMs": 1100 },
+        { "src": "frames/idle/001.png", "durationMs": 150 },
+        { "src": "frames/idle/000.png", "durationMs": 1500 },
+        { "src": "frames/idle/000.png", "durationMs": 900 }
+      ]
+    },
+    {
+      "id": "daily-cafe-work-loop",
+      "label": "咖啡馆工作",
+      "loop": true,
+      "weight": 1,
+      "intents": ["work", "think"],
+      "frames": [
+        { "src": "frames/work/000.png", "durationMs": 320 },
+        { "src": "frames/work/001.png", "durationMs": 300 },
+        { "src": "frames/work/001.png", "durationMs": 260 },
+        { "src": "frames/work/000.png", "durationMs": 320 }
+      ]
+    },
+    {
+      "id": "daily-cafe-coffee-sip",
+      "label": "喝热咖啡",
+      "loop": false,
+      "weight": 1,
+      "intents": ["encourage", "wait"],
+      "frames": [
+        { "src": "frames/coffee/000.png", "durationMs": 220 },
+        { "src": "frames/coffee/001.png", "durationMs": 300 },
+        { "src": "frames/coffee/002.png", "durationMs": 650 },
+        { "src": "frames/coffee/001.png", "durationMs": 300 },
+        { "src": "frames/coffee/000.png", "durationMs": 260 }
+      ]
+    },
+    {
+      "id": "daily-cafe-click-glance",
+      "label": "抬眼回应",
+      "loop": false,
+      "weight": 1,
+      "intents": ["greet", "happy"],
+      "frames": [
+        { "src": "frames/click/000.png", "durationMs": 180 },
+        { "src": "frames/click/001.png", "durationMs": 600 },
+        { "src": "frames/click/000.png", "durationMs": 220 }
+      ]
+    },
+    {
+      "id": "daily-cafe-break-loop",
+      "label": "雨天休息",
+      "loop": true,
+      "weight": 1,
+      "intents": ["tired"],
+      "frames": [
+        { "src": "frames/break/000.png", "durationMs": 1400 },
+        { "src": "frames/break/001.png", "durationMs": 180 },
+        { "src": "frames/break/000.png", "durationMs": 1600 },
+        { "src": "frames/break/000.png", "durationMs": 700 }
+      ]
+    }
+  ]
+}

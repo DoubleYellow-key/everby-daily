@@ -1,6 +1,6 @@
 # Daily for Everby
 
-Daily 是 Everby 的桌面宠物角色。本仓库同时提供可导入的角色本体、基础日常动作扩展和居家陪伴动作扩展。
+Daily 是 Everby 的桌面宠物角色。本仓库同时提供可导入的角色本体、基础日常动作扩展、居家陪伴动作扩展和雨天咖啡馆动作扩展。
 
 ![Daily 角色动作总览](previews/daily-contact-sheet.png)
 
@@ -11,8 +11,9 @@ Daily 是 Everby 的桌面宠物角色。本仓库同时提供可导入的角色
 - `daily.zip`：Daily 角色本体。在 Everby 的“角色与人设”页面选择“导入角色”。
 - `daily-routines.soulmotion`：欢呼、专注和舒展动作。在“动作 → 扩展包”中导入。
 - `daily-home-companion.soulmotion`：居家服装与坐垫场景动作，在“动作 → 扩展包”中导入。
+- `daily-rainy-cafe.soulmotion`：统一咖啡馆桌边坐姿的待机、工作、喝咖啡、点击回应和休息动作。
 
-请先导入 `daily.zip`，再导入 `.soulmotion` 文件。两个动作包的 `targetPetId` 都是 `daily`。
+请先导入 `daily.zip`，再导入 `.soulmotion` 文件。所有动作包的 `targetPetId` 都是 `daily`。
 
 ## 居家动作包
 
@@ -31,6 +32,10 @@ Daily 是 Everby 的桌面宠物角色。本仓库同时提供可导入的角色
 
 ![Daily 居家动作总览](previews/daily-home-companion.png)
 
+## 雨天咖啡馆动作包
+
+咖啡馆动作包首版包含 5 个关键动作：桌边待机、持续工作、喝热咖啡、点击抬眼和捧杯休息。所有动作固定使用同一张桌子、椅子、电脑和咖啡杯，人物保持黑色针织外套与认真神态。
+
 ## 仓库结构
 
 ```text
@@ -38,6 +43,7 @@ dist/                         可直接导入的发布文件
 pet/daily/                    Daily 角色本体源码
 motions/daily-routines/       基础日常动作包源码
 motions/daily-home-companion/ 居家陪伴动作包源码
+motions/daily-rainy-cafe/      雨天咖啡馆动作包源码
 previews/                     角色与动作预览图
 ```
 
@@ -51,6 +57,7 @@ previews/                     角色与动作预览图
 node skills/everby-pet-install/scripts/validate-pet.mjs artifacts/git/everby-daily/pet/daily
 pnpm motion:validate -- artifacts/git/everby-daily/dist/daily-routines.soulmotion
 pnpm motion:validate -- artifacts/git/everby-daily/dist/daily-home-companion.soulmotion
+pnpm motion:validate -- artifacts/git/everby-daily/dist/daily-rainy-cafe.soulmotion
 ```
 
 ## License
