@@ -1,0 +1,79 @@
+{
+  "formatVersion": 1,
+  "packId": "daily-office-work",
+  "version": "1.0.0",
+  "name": "Daily 办公室工作",
+  "targetPetId": "daily",
+  "canvas": {
+    "width": 192,
+    "height": 208,
+    "anchorX": 96,
+    "anchorY": 208
+  },
+  "animations": [
+    {
+      "id": "daily-office-idle-loop",
+      "label": "办公待机",
+      "loop": true,
+      "weight": 1,
+      "intents": ["idle", "wait"],
+      "frames": [
+        { "src": "frames/idle/000.png", "durationMs": 1300 },
+        { "src": "frames/idle/001.png", "durationMs": 150 },
+        { "src": "frames/idle/000.png", "durationMs": 1600 },
+        { "src": "frames/idle/000.png", "durationMs": 900 }
+      ]
+    },
+    {
+      "id": "daily-office-work-loop",
+      "label": "日常办公",
+      "loop": true,
+      "weight": 1,
+      "intents": ["work", "think"],
+      "frames": [
+        { "src": "frames/work/000.png", "durationMs": 340 },
+        { "src": "frames/work/001.png", "durationMs": 320 },
+        { "src": "frames/work/001.png", "durationMs": 280 },
+        { "src": "frames/work/000.png", "durationMs": 340 }
+      ]
+    },
+    {
+      "id": "daily-office-sign",
+      "label": "签字确认",
+      "loop": false,
+      "weight": 1,
+      "intents": ["encourage", "happy"],
+      "frames": [
+        { "src": "frames/sign/000.png", "durationMs": 240 },
+        { "src": "frames/sign/001.png", "durationMs": 300 },
+        { "src": "frames/sign/002.png", "durationMs": 650 },
+        { "src": "frames/sign/001.png", "durationMs": 280 },
+        { "src": "frames/sign/000.png", "durationMs": 260 }
+      ]
+    },
+    {
+      "id": "daily-office-click-glance",
+      "label": "抬眼回应",
+      "loop": false,
+      "weight": 1,
+      "intents": ["greet", "confused"],
+      "frames": [
+        { "src": "frames/click/000.png", "durationMs": 180 },
+        { "src": "frames/click/001.png", "durationMs": 600 },
+        { "src": "frames/click/000.png", "durationMs": 220 }
+      ]
+    },
+    {
+      "id": "daily-office-tired-pause",
+      "label": "工作停顿",
+      "loop": false,
+      "weight": 1,
+      "intents": ["tired"],
+      "frames": [
+        { "src": "frames/tired/000.png", "durationMs": 220 },
+        { "src": "frames/tired/001.png", "durationMs": 850 },
+        { "src": "frames/tired/000.png", "durationMs": 320 }
+      ]
+    }
+  ]
+}
