@@ -1,6 +1,6 @@
 # Daily for Everby
 
-Daily 是 Everby 的桌面宠物角色。本仓库同时提供可导入的角色本体，以及日常、居家、咖啡馆和办公室场景动作扩展。
+Daily 是 Everby 的桌面宠物角色。本仓库同时提供可导入的角色本体，以及日常、居家、咖啡馆、办公室、健身和户外运动场景动作扩展。
 
 ![Daily 角色动作总览](previews/daily-contact-sheet.png)
 
@@ -13,6 +13,8 @@ Daily 是 Everby 的桌面宠物角色。本仓库同时提供可导入的角色
 - `daily-home-companion.soulmotion`：居家服装与坐垫场景动作，在“动作 → 扩展包”中导入。
 - `daily-rainy-cafe.soulmotion`：统一咖啡馆桌边坐姿的待机、工作、喝咖啡、点击回应和休息动作。
 - `daily-office-work.soulmotion`：西装与白色办公桌场景的待机、办公、签字、点击回应和疲劳动作。
+- `daily-fitness-warmups.soulmotion`：粉色运动装造型的哑铃弯举、肩臂、侧腰、弓步热身和喝水休息动作。
+- `daily-outdoor-badminton.soulmotion`：白色运动装造型的待机、发球、正手击球、扣杀、庆祝和移动动作。
 
 请先导入 `daily.zip`，再导入 `.soulmotion` 文件。所有动作包的 `targetPetId` 都是 `daily`。
 
@@ -41,6 +43,14 @@ Daily 是 Everby 的桌面宠物角色。本仓库同时提供可导入的角色
 
 办公室动作包包含 5 个关键动作：办公待机、日常办公、签字确认、抬眼回应和工作停顿。所有动作统一使用炭黑色西装、哑光白色办公桌与深绿色文件盘。
 
+## 健身热身动作包
+
+健身动作包包含持续哑铃弯举，以及肩臂绕环、左右侧腰拉伸、弓步压腿和喝水休息。所有动作统一使用粉色运动上衣、粉色头带、暖白运动裤和同一套瑜伽垫器材；一次性动作结束后恢复当前状态背景动画。
+
+## 户外羽毛球动作包
+
+羽毛球动作包包含球场待机、低手发球、正手击球、跃起扣杀、得分庆祝和侧向垫步。人物统一使用白色运动套装、粉色头带、深灰球拍和浅蓝色局部球场，不附加球网或水壶。
+
 ## 仓库结构
 
 ```text
@@ -50,6 +60,8 @@ motions/daily-routines/       基础日常动作包源码
 motions/daily-home-companion/ 居家陪伴动作包源码
 motions/daily-rainy-cafe/      雨天咖啡馆动作包源码
 motions/daily-office-work/     办公室工作动作包源码
+motions/daily-fitness-warmups/ 健身热身动作包源码
+motions/daily-outdoor-badminton/ 户外羽毛球动作包源码
 previews/                     角色与动作预览图
 ```
 
@@ -65,6 +77,8 @@ pnpm motion:validate -- artifacts/git/everby-daily/dist/daily-routines.soulmotio
 pnpm motion:validate -- artifacts/git/everby-daily/dist/daily-home-companion.soulmotion
 pnpm motion:validate -- artifacts/git/everby-daily/dist/daily-rainy-cafe.soulmotion
 pnpm motion:validate -- artifacts/git/everby-daily/dist/daily-office-work.soulmotion
+pnpm motion:validate -- artifacts/git/everby-daily/dist/daily-fitness-warmups.soulmotion
+pnpm motion:validate -- artifacts/git/everby-daily/dist/daily-outdoor-badminton.soulmotion
 ```
 
 ## License

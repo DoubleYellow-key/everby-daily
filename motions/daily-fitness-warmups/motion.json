@@ -1,0 +1,195 @@
+{
+  "formatVersion": 1,
+  "packId": "daily-fitness-warmups",
+  "version": "1.2.0",
+  "name": "Daily 健身训练",
+  "targetPetId": "daily",
+  "canvas": {
+    "width": 192,
+    "height": 208,
+    "anchorX": 96,
+    "anchorY": 208
+  },
+  "animations": [
+    {
+      "id": "daily-fitness-lunge-warmup",
+      "label": "弓步压腿",
+      "loop": false,
+      "weight": 1,
+      "intents": [
+        "work",
+        "tired"
+      ],
+      "frames": [
+        {
+          "src": "daily-fitness-lunge-warmup/000.png",
+          "durationMs": 300
+        },
+        {
+          "src": "daily-fitness-lunge-warmup/001.png",
+          "durationMs": 320
+        },
+        {
+          "src": "daily-fitness-lunge-warmup/002.png",
+          "durationMs": 520
+        },
+        {
+          "src": "daily-fitness-lunge-warmup/003.png",
+          "durationMs": 360
+        },
+        {
+          "src": "daily-fitness-lunge-warmup/004.png",
+          "durationMs": 280
+        },
+        {
+          "src": "daily-fitness-lunge-warmup/005.png",
+          "durationMs": 360
+        }
+      ]
+    },
+    {
+      "id": "daily-fitness-shoulder-warmup",
+      "label": "肩臂热身",
+      "loop": false,
+      "weight": 1,
+      "intents": [
+        "encourage",
+        "work"
+      ],
+      "frames": [
+        {
+          "src": "daily-fitness-shoulder-warmup/000.png",
+          "durationMs": 280
+        },
+        {
+          "src": "daily-fitness-shoulder-warmup/001.png",
+          "durationMs": 340
+        },
+        {
+          "src": "daily-fitness-shoulder-warmup/002.png",
+          "durationMs": 460
+        },
+        {
+          "src": "daily-fitness-shoulder-warmup/003.png",
+          "durationMs": 320
+        },
+        {
+          "src": "daily-fitness-shoulder-warmup/004.png",
+          "durationMs": 260
+        },
+        {
+          "src": "daily-fitness-shoulder-warmup/005.png",
+          "durationMs": 360
+        }
+      ]
+    },
+    {
+      "id": "daily-fitness-side-stretch",
+      "label": "侧腰拉伸",
+      "loop": false,
+      "weight": 1,
+      "intents": [
+        "tired",
+        "encourage"
+      ],
+      "frames": [
+        {
+          "src": "daily-fitness-side-stretch/000.png",
+          "durationMs": 280
+        },
+        {
+          "src": "daily-fitness-side-stretch/001.png",
+          "durationMs": 340
+        },
+        {
+          "src": "daily-fitness-side-stretch/002.png",
+          "durationMs": 520
+        },
+        {
+          "src": "daily-fitness-side-stretch/003.png",
+          "durationMs": 300
+        },
+        {
+          "src": "daily-fitness-side-stretch/004.png",
+          "durationMs": 520
+        },
+        {
+          "src": "daily-fitness-side-stretch/005.png",
+          "durationMs": 340
+        }
+      ]
+    },
+    {
+      "id": "daily-fitness-water-break",
+      "label": "喝水休息",
+      "loop": false,
+      "weight": 1,
+      "intents": [
+        "happy",
+        "tired"
+      ],
+      "frames": [
+        {
+          "src": "daily-fitness-water-break/000.png",
+          "durationMs": 320
+        },
+        {
+          "src": "daily-fitness-water-break/001.png",
+          "durationMs": 360
+        },
+        {
+          "src": "daily-fitness-water-break/002.png",
+          "durationMs": 620
+        },
+        {
+          "src": "daily-fitness-water-break/003.png",
+          "durationMs": 420
+        },
+        {
+          "src": "daily-fitness-water-break/004.png",
+          "durationMs": 360
+        },
+        {
+          "src": "daily-fitness-water-break/005.png",
+          "durationMs": 420
+        }
+      ]
+    },
+    {
+      "id": "daily-fitness-curl-loop",
+      "label": "哑铃弯举",
+      "loop": true,
+      "weight": 2,
+      "intents": [
+        "work",
+        "encourage"
+      ],
+      "frames": [
+        {
+          "src": "daily-fitness-curl-loop/000.png",
+          "durationMs": 360
+        },
+        {
+          "src": "daily-fitness-curl-loop/001.png",
+          "durationMs": 320
+        },
+        {
+          "src": "daily-fitness-curl-loop/002.png",
+          "durationMs": 440
+        },
+        {
+          "src": "daily-fitness-curl-loop/003.png",
+          "durationMs": 320
+        },
+        {
+          "src": "daily-fitness-curl-loop/004.png",
+          "durationMs": 320
+        },
+        {
+          "src": "daily-fitness-curl-loop/005.png",
+          "durationMs": 420
+        }
+      ]
+    }
+  ]
+}

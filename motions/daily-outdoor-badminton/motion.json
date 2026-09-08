@@ -1,0 +1,230 @@
+{
+  "formatVersion": 1,
+  "packId": "daily-outdoor-badminton",
+  "version": "1.0.0",
+  "name": "Daily 户外羽毛球",
+  "targetPetId": "daily",
+  "canvas": {
+    "width": 192,
+    "height": 208,
+    "anchorX": 96,
+    "anchorY": 208
+  },
+  "animations": [
+    {
+      "id": "daily-badminton-cheer",
+      "label": "得分庆祝",
+      "loop": false,
+      "weight": 1,
+      "intents": [
+        "happy",
+        "celebrate"
+      ],
+      "frames": [
+        {
+          "src": "daily-badminton-cheer/000.png",
+          "durationMs": 260
+        },
+        {
+          "src": "daily-badminton-cheer/001.png",
+          "durationMs": 300
+        },
+        {
+          "src": "daily-badminton-cheer/002.png",
+          "durationMs": 480
+        },
+        {
+          "src": "daily-badminton-cheer/003.png",
+          "durationMs": 340
+        },
+        {
+          "src": "daily-badminton-cheer/004.png",
+          "durationMs": 300
+        }
+      ]
+    },
+    {
+      "id": "daily-badminton-forehand",
+      "label": "正手击球",
+      "loop": false,
+      "weight": 1,
+      "intents": [
+        "work",
+        "happy"
+      ],
+      "frames": [
+        {
+          "src": "daily-badminton-forehand/000.png",
+          "durationMs": 240
+        },
+        {
+          "src": "daily-badminton-forehand/001.png",
+          "durationMs": 220
+        },
+        {
+          "src": "daily-badminton-forehand/002.png",
+          "durationMs": 180
+        },
+        {
+          "src": "daily-badminton-forehand/003.png",
+          "durationMs": 300
+        },
+        {
+          "src": "daily-badminton-forehand/004.png",
+          "durationMs": 220
+        },
+        {
+          "src": "daily-badminton-forehand/005.png",
+          "durationMs": 280
+        }
+      ]
+    },
+    {
+      "id": "daily-badminton-ready-loop",
+      "label": "球场待机",
+      "loop": true,
+      "weight": 1,
+      "intents": [
+        "idle",
+        "wait"
+      ],
+      "frames": [
+        {
+          "src": "daily-badminton-ready-loop/000.png",
+          "durationMs": 420
+        },
+        {
+          "src": "daily-badminton-ready-loop/001.png",
+          "durationMs": 180
+        },
+        {
+          "src": "daily-badminton-ready-loop/002.png",
+          "durationMs": 160
+        },
+        {
+          "src": "daily-badminton-ready-loop/003.png",
+          "durationMs": 360
+        },
+        {
+          "src": "daily-badminton-ready-loop/004.png",
+          "durationMs": 420
+        },
+        {
+          "src": "daily-badminton-ready-loop/005.png",
+          "durationMs": 380
+        }
+      ]
+    },
+    {
+      "id": "daily-badminton-serve",
+      "label": "低手发球",
+      "loop": false,
+      "weight": 1,
+      "intents": [
+        "work",
+        "encourage"
+      ],
+      "frames": [
+        {
+          "src": "daily-badminton-serve/000.png",
+          "durationMs": 320
+        },
+        {
+          "src": "daily-badminton-serve/001.png",
+          "durationMs": 260
+        },
+        {
+          "src": "daily-badminton-serve/002.png",
+          "durationMs": 180
+        },
+        {
+          "src": "daily-badminton-serve/003.png",
+          "durationMs": 300
+        },
+        {
+          "src": "daily-badminton-serve/004.png",
+          "durationMs": 220
+        },
+        {
+          "src": "daily-badminton-serve/005.png",
+          "durationMs": 280
+        }
+      ]
+    },
+    {
+      "id": "daily-badminton-side-step",
+      "label": "侧向垫步",
+      "loop": true,
+      "weight": 1,
+      "intents": [
+        "move"
+      ],
+      "frames": [
+        {
+          "src": "daily-badminton-side-step/000.png",
+          "durationMs": 220
+        },
+        {
+          "src": "daily-badminton-side-step/001.png",
+          "durationMs": 180
+        },
+        {
+          "src": "daily-badminton-side-step/002.png",
+          "durationMs": 180
+        },
+        {
+          "src": "daily-badminton-side-step/003.png",
+          "durationMs": 180
+        },
+        {
+          "src": "daily-badminton-side-step/004.png",
+          "durationMs": 180
+        },
+        {
+          "src": "daily-badminton-side-step/005.png",
+          "durationMs": 220
+        }
+      ]
+    },
+    {
+      "id": "daily-badminton-smash",
+      "label": "跃起扣杀",
+      "loop": false,
+      "weight": 1,
+      "intents": [
+        "celebrate",
+        "encourage"
+      ],
+      "frames": [
+        {
+          "src": "daily-badminton-smash/000.png",
+          "durationMs": 260
+        },
+        {
+          "src": "daily-badminton-smash/001.png",
+          "durationMs": 220
+        },
+        {
+          "src": "daily-badminton-smash/002.png",
+          "durationMs": 160
+        },
+        {
+          "src": "daily-badminton-smash/003.png",
+          "durationMs": 280
+        },
+        {
+          "src": "daily-badminton-smash/004.png",
+          "durationMs": 180
+        },
+        {
+          "src": "daily-badminton-smash/005.png",
+          "durationMs": 220
+        },
+        {
+          "src": "daily-badminton-smash/006.png",
+          "durationMs": 300
+        }
+      ]
+    }
+  ]
+}
