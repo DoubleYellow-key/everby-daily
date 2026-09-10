@@ -1,0 +1,57 @@
+{
+  "formatVersion": 1,
+  "packId": "daily-gaming",
+  "version": "0.3.1",
+  "name": "Daily 游戏陪伴",
+  "targetPetId": "daily",
+  "canvas": { "width": 192, "height": 208, "anchorX": 96, "anchorY": 208 },
+  "animations": [
+    {
+      "id": "daily-gaming-play-loop",
+      "label": "专注打游戏",
+      "loop": true,
+      "weight": 1,
+      "intents": ["work", "think"],
+      "frames": [
+        { "src": "daily-gaming-play-loop/000.png", "durationMs": 280 },
+        { "src": "daily-gaming-play-loop/001.png", "durationMs": 220 },
+        { "src": "daily-gaming-play-loop/002.png", "durationMs": 260 },
+        { "src": "daily-gaming-play-loop/001.png", "durationMs": 220 }
+      ]
+    },
+    {
+      "id": "daily-gaming-win",
+      "label": "克制胜利",
+      "loop": false,
+      "weight": 1,
+      "intents": ["celebrate", "happy", "encourage"],
+      "frames": [
+        { "src": "daily-gaming-win/000.png", "durationMs": 220 },
+        { "src": "daily-gaming-win/001.png", "durationMs": 160 },
+        { "src": "daily-gaming-win/002.png", "durationMs": 180 },
+        { "src": "daily-gaming-win/003.png", "durationMs": 180 },
+        { "src": "daily-gaming-win/004.png", "durationMs": 520 },
+        { "src": "daily-gaming-win/003.png", "durationMs": 160 },
+        { "src": "daily-gaming-win/002.png", "durationMs": 160 },
+        { "src": "daily-gaming-win/001.png", "durationMs": 180 }
+      ]
+    },
+    {
+      "id": "daily-gaming-lose",
+      "label": "输了皱眉",
+      "loop": false,
+      "weight": 1,
+      "intents": ["confused", "tired"],
+      "frames": [
+        { "src": "daily-gaming-lose/000.png", "durationMs": 220 },
+        { "src": "daily-gaming-lose/001.png", "durationMs": 180 },
+        { "src": "daily-gaming-lose/002.png", "durationMs": 180 },
+        { "src": "daily-gaming-lose/003.png", "durationMs": 180 },
+        { "src": "daily-gaming-lose/004.png", "durationMs": 480 },
+        { "src": "daily-gaming-lose/003.png", "durationMs": 160 },
+        { "src": "daily-gaming-lose/002.png", "durationMs": 160 },
+        { "src": "daily-gaming-lose/001.png", "durationMs": 180 }
+      ]
+    }
+  ]
+}
